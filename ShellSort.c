@@ -1,7 +1,13 @@
 //쉘 정렬(Shell Sort)
 #include <stdio.h>
  
-#define SWAP(a,b)  {int t; t = a; a=b; b=t;}//a와 b를 교환
+#define SWAP(a,b)  
+{
+  int t;
+  t = a;
+  a = b;
+  b = t;
+}//a와 b를 교환
  
  
 int *origin;
