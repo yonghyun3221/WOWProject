@@ -12,15 +12,13 @@ Enter file contents here
  }  
  
  void swap(int *array, int i, int j) 
- { 
-     int temp
-     
+ {      
      if (!array) 
      {
          return; 
      }
      
-     temp = array[i]; 
+     int temp = array[i]; 
      array[i] = array[j]; 
      array[j] = temp; 
  }  
